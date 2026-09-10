@@ -36,6 +36,13 @@ yarn-error.log*
 # vercel
 .vercel
 
+# supabase local secrets
+.supabase-db-password.txt
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# supabase cli temp
+supabase/.temp/
+supabase/.branches/
